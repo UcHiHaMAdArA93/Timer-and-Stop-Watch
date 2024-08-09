@@ -47,7 +47,6 @@ class _StopWatchState extends State<StopWatch> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
-                // Display elapsed time
                 ValueListenableBuilder<String>(
                   valueListenable: _stopwatchModel.elapsedTimeString,
                   builder: (context, elapsedTime, child) {
